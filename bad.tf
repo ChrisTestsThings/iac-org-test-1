@@ -48,7 +48,7 @@ resource "aws_dms_replication_instance" "test2" {
   ]
 }
 
-resource "aws_dms_replication_instance" "test2" {
+resource "aws_dms_replication_instance" "test3" {
   allocated_storage            = 20
   apply_immediately            = true
   auto_minor_version_upgrade   = true
